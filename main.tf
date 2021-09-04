@@ -134,7 +134,7 @@ resource "aws_instance" "webserver1" {
 
   provisioner "remote-exec" {
     inline = [
-      "echo ravi",
+      "echo gouthami",
       "set",
       "pwd",
       "sudo apt update",
